@@ -1,10 +1,9 @@
 <?php
-//session_start
 @session_start();
-$host="localhost";//taking host name of database
-$user="hello";//taking user name of databse
-$pw="admin";//taking password
-$schema="zypher";//taking the schema name to connect
+$host="localhost";
+$user="hello";
+$pw="admin";
+$schema="zypher";
 $mysqli=mysqli_connect($host,$user,$pw,$schema);//returns database handle - representation of connectn. of php to database
 
 //CONNECT TO MySQL
